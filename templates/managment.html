@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Integrated Productive Plants &mdash; Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="static/fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="static/bootstrap.min.css">
+  <link rel="stylesheet" href="static/jquery-ui.css">
+  <link rel="stylesheet" href="static/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/owl.theme.default.min.css">
+  <link rel="stylesheet" href="static/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="static/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="static/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="static/aos.css">
+  <link href="static/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="static/style.css">
+
+	<title></title>
+</head>
+<body style="text-align: center;">
+	<h1>Products</h1>
+	<ol>
+		{%for blog in blogs%}
+		<li style="font-size: 20px;">Name: {{blog.title}}. Picture: {{blog.image}}. <a href="{{ url_for('blog_managment',blog_id=blog.blog_id) }}"> Edit </a>
+		<a href="{{ url_for('delete_blog',blog_id= blog.blog_id) }}">Delete</a> </li>
+		{%endfor%}
+	</ol>
+	
+</body>
+</html>
