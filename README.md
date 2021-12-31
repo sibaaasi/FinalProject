@@ -18,6 +18,9 @@
     - Clarifai api: 
       - I verified the account through an api key and did a post method to upload the image.
       - the response contains all the words that describe the content and we store it in the databse. 
+    - Text to Speech:
+      - I used a library called pyttsx3.
+      - First you initialize, then you simply put a string in the function and it starts speaking.
     - Admin: 
       - The website contains an option for the editor to change the content of the website manually.
       - you can edit and delete the objects infront of you however you need, this is done through functions in the database.py file.
