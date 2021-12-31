@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Integrated Productive Plants &mdash; Home</title>
+<title> Management</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,7 +29,7 @@
 	<title></title>
 </head>
 <body style="text-align: center;">
-	<h1>Products</h1>
+	<h1>Blogs</h1>
 	<ol>
 		{%for blog in blogs%}
 		<li style="font-size: 20px;">Name: {{blog.title}}. Picture: {{blog.image}}. <a href="{{ url_for('blog_managment',blog_id=blog.blog_id) }}"> Edit </a>
