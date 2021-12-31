@@ -1,5 +1,5 @@
 # Seeing Blindly
-### Video Demo:  <URL HERE>
+### Video Demo:  <https://www.youtube.com/watch?v=vEFBjdHpEIk>
 ### Description: 
   - Seeing Blindly is a website that helps the blind to see through their ears. 
   - The website does this through uploading an image link to the Clarifai api. 
