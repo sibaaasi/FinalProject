@@ -1,10 +1,10 @@
 # Seeing Blindly
 ### Video Demo:  <URL HERE>
 ### Description: 
-  Seeing Blindly is a website that helps the blind to see through their ears. 
-  The website does this through uploading an image link to the Clarifai api. 
-  using AI, the api turns the Image into multiple words that describe the content of the image. 
-  then through a text to speech library we turn our api output to sound, enabling our users to hear their images. 
+  - Seeing Blindly is a website that helps the blind to see through their ears. 
+  - The website does this through uploading an image link to the Clarifai api. 
+  - using AI, the api turns the Image into multiple words that describe the content of the image. 
+  - then through a text to speech library we turn our api output to sound, enabling our users to hear their images. 
 ### model.py: 
   Writing and initializing the table that will be stored in the database, we are creating a table that contains an id (primary key), a name, an image path and the content of the api response.
 ### database.py: 
